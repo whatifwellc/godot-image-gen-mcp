@@ -31,7 +31,13 @@ cp .env.example .env
 
 ## Claude Desktop Configuration
 
-Add to your `claude_desktop_config.json`:
+Open your Claude Desktop config file:
+
+- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+- **Linux:** `~/.config/Claude/claude_desktop_config.json`
+
+Add the following to the `mcpServers` object:
 
 ```json
 {
@@ -43,6 +49,10 @@ Add to your `claude_desktop_config.json`:
   }
 }
 ```
+
+Replace `/path/to/godot-image-gen` with the actual path where you cloned the repo.
+
+Restart Claude Desktop to load the new server.
 
 ## Asset Library Structure
 

@@ -9,6 +9,7 @@ venv/
 *.png
 *.jpg
 *.jpeg
+!examples/*.png
 cost_log.json
 asset_index.json
 godot-assets/

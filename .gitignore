@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+*.png
+*.jpg
+*.jpeg
+cost_log.json
+asset_index.json
+godot-assets/
+.DS_Store
+.vscode/
+.idea/

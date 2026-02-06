@@ -85,6 +85,10 @@ godot-assets/
 - Python 3.8+
 - OpenAI API key
 
+## Disclaimer
+
+This project is provided as-is with no warranty. It relies on the OpenAI API which incurs costs per image generation. You are responsible for monitoring your own API usage and costs. This is not an official Godot or OpenAI product.
+
 ## License
 
 MIT
